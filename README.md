@@ -1,7 +1,7 @@
 <h1 align="center"> NaN1fy </h1>
 
 <p align="center">
-  <img src="assets/NaN1fy-logotype-transparent.png">
+  <img src="assets/Nan1fy-logotype-transparent.png">
 </p>
 
 <p align="center"> 
