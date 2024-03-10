@@ -13,6 +13,8 @@
 <h2 align="center"> Componenti </h2>
 
 <div align="center">
+  | Studente | Matricola |
+  | -------- | --------- |
   Linda Barbiero     | 1220244
   Guglielmo Barison  | 2042324
   Pietro Busato      | 2043688
