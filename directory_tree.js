@@ -79,7 +79,7 @@ Promise.all([
     const documentsData = jsonData[0].contents.find(item => item.name === "documents").contents;
     let htmlList = "<h2>Documenti del gruppo</h2>";
     const inputDate = new Date(data);	
-	inputDate.setHours(inputDate.getHours() + 2);
+	inputDate.setHours(inputDate.getHours());
 	htmlList += generateHtmlList(documentsData, excludeList);
 	htmlList += `<span id="dataAgg">Ultimo aggiornamento il ${inputDate.getFullYear()}-${(inputDate.getMonth() + 1).toString().padStart(2, '0')}-${inputDate.getDate().toString().padStart(2, '0')} alle ore ${inputDate.getHours().toString().padStart(2, '0')}:${inputDate.getMinutes().toString().padStart(2, '0')}</span>`;
 	appendHtmlToMain(htmlList, "section");
