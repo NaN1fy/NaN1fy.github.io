@@ -27,7 +27,7 @@ jobs:
       run: |
         mv esterno/repo_tree.json interno/assets/repo_tree.json
         touch interno/assets/date.txt
-        stat -c "%y" interno/assets/repo_tree.json > interno/assets/date
+        stat -c "%y" interno/assets/repo_tree.json > interno/assets/date.txt
     - name: commit to internal repository (site)
       run: |
         cd interno
