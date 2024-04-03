@@ -15,35 +15,35 @@ body {
 	font-family: "IBM Plex Sans", sans-serif;
   	font-weight: 400;
   	font-style: normal;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    	margin: 0;
+    	padding: 0;
+    	background-color: #f8f8f8;
+    	color: #333;
+    	display: flex;
+    	flex-direction: column;
+    	min-height: 100vh;
 	background-size: 18px 18px;
 	background-image: linear-gradient(
-    	-45deg,
-    	rgba(var(--primary-stripe-rgb)) 25%,
-    	rgba(var(--secondary-stripe-rgb)) 25%,
-    	rgba(var(--secondary-stripe-rgb)) 50%,
-    	rgba(var(--primary-stripe-rgb)) 50%,
-    	rgba(var(--primary-stripe-rgb)) 75%,
-    	rgba(var(--secondary-stripe-rgb)) 75%,
-    	rgba(var(--secondary-stripe-rgb)) 100%
-  );
-  animation: pan 360s linear infinite;
+    		-45deg,
+    		rgba(var(--primary-stripe-rgb)) 25%,
+    		rgba(var(--secondary-stripe-rgb)) 25%,
+    		rgba(var(--secondary-stripe-rgb)) 50%,
+    		rgba(var(--primary-stripe-rgb)) 50%,
+    		rgba(var(--primary-stripe-rgb)) 75%,
+    		rgba(var(--secondary-stripe-rgb)) 75%,
+    		rgba(var(--secondary-stripe-rgb)) 100%
+  	);
+  	animation: pan 360s linear infinite;
 
 }
 
 @keyframes pan {
-  0% {
-    background-position: 0px 0px;
-  }
-  100% {
-    background-position: 1000px 1000px;
-  }
+	0% {
+    		background-position: 0px 0px;
+  	}
+  	100% {
+    		background-position: 1000px 1000px;
+  	}
 }
 
 main {
@@ -52,53 +52,65 @@ main {
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 .folder {
-  font-weight: bold;
-  margin: 10px;
+	font-weight: bold;
+	margin: 10px;
 }
 
 .file {
-  margin-left: 20px; 
+	margin-left: 20px; 
 }
 
 .folder::before {
-  content: "\1F5C2";
-  margin-right: 5px;  
+	content: "\1F5C2";
+	margin-right: 5px;  
 }
 
 li.folder {
-    text-transform: uppercase;
+    	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .file::before {
-  content: "\1F4C4";
-  margin-right: 5px; 
+  	content: "\1F4C4";
+  	margin-right: 5px; 
 }
 
 ul ul {
-  padding-left: 20px;
+ 	padding-left: 20px;
 }
 
 header {
-  	background: rgb(49, 101, 157);
-    color: #fff;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	background: rgb(49, 101, 157);
+	color: #fff;
+	padding: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
   	box-shadow: 4px 4px var(--main-color);
 }
 
+@media screen and (max-width: 550px) {
+	header>h1 {
+		color: #fff;
+		text-indent: -9999px;
+		background: url("assets/Nan1fy-logotype-transparent-short.png") no-repeat;
+		width: 80px;
+		height: 80px;
+		background-size: cover;
+		margin: 0px;
+	}
+}
+
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1em;
-    font-size: 1.5em;
+	color: #fff;
+    	text-decoration: none;
+   	margin: 0 1em;
+   	font-size: 1.5em;
 }
 
 header>h1 {
@@ -112,40 +124,40 @@ header>h1 {
 }
 
 nav {
-  display: flex;
-  justify-content: center;
+	display: flex;
+  	justify-content: center;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
+	display: flex;
+	list-style: none;
 }
 
 nav ul li {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 
 nav ul li a {
-  text-decoration: none; 
-  color: #fff; 
-  font-weight: bold; 
+	text-decoration: none; 
+	color: #fff; 
+	font-weight: bold; 
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .section {
-  margin: 20px;
-  background: var(--bg-color);
-  border: 2px solid var(--main-color);
-  box-shadow: 4px 4px var(--main-color);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 20px;
-  gap: 10px;
+	margin: 20px;
+  	background: var(--bg-color);
+  	border: 2px solid var(--main-color);
+  	box-shadow: 4px 4px var(--main-color);
+  	border-radius: 5px;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	padding: 20px;
+  	gap: 10px;
 }
 
 .section a {	
@@ -179,10 +191,10 @@ nav ul li a:hover {
 }
 
 .info .nome::after{
-    content: "\a";
-    white-space: pre;
+    	content: "\a";
+    	white-space: pre;
 }
 
 span#dataAgg {
-    text-align: right;
+    	text-align: right;
 }
