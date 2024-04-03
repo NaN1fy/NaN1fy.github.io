@@ -1,0 +1,27 @@
+[
+  {"type":"directory","name":".","size":4096,"contents":[
+    {"type":"file","name":"LICENSE","size":7048},
+    {"type":"file","name":"README.md","size":701},
+    {"type":"directory","name":"documents","size":4096,"contents":[
+      {"type":"directory","name":"candidatura","size":4096,"contents":[
+        {"type":"file","name":"dichiarazione_impegni_v2.0.0.pdf","size":492778},
+        {"type":"file","name":"lettera_presentazione.pdf","size":452988},
+        {"type":"file","name":"valutazione_capitolati_v1.0.0.pdf","size":500027},
+        {"type":"directory","name":"verbali","size":4096,"contents":[
+          {"type":"directory","name":"esterni","size":4096,"contents":[
+            {"type":"file","name":"VE_2024_03_12_Imola_v1.0.0.pdf","size":764108},
+            {"type":"file","name":"VE_2024_03_12_SyncLab_v1.0.0.pdf","size":573474}
+        ]},
+          {"type":"directory","name":"interni","size":4096,"contents":[
+            {"type":"file","name":"VI_2024_03_08_v1.0.0.pdf","size":501332},
+            {"type":"file","name":"VI_2024_03_18_v1.0.0.pdf","size":468645},
+            {"type":"file","name":"VI_2024_03_25_v1.0.0.pdf","size":456688}
+        ]}
+      ]}
+    ]}
+  ]},
+    {"type":"file","name":"repo_tree.json","size":0}
+  ]}
+,
+  {"type":"report","directories":5,"files":11}
+]
