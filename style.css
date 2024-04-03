@@ -186,6 +186,24 @@ nav ul li a:hover {
 	border: 2px solid var(--main-color);
 	border-radius: 5px;
 	display: inline-block;
+	width: 300px;
+	transition: transform 0.3s ease; /* Aggiungi una transizione per un effetto più fluido */
+}
+
+.info ul li:hover {
+	animation: move 1s infinite alternate; /* Attiva l'animazione solo quando il mouse è sopra */
+}
+
+@keyframes move {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-3px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }
 
 .info ul .matricola {
