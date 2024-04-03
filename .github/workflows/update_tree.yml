@@ -1,0 +1,40 @@
+name: Generate Repo Tree
+
+on:
+  schedule:
+    - cron: "0 8,22 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate_tree_and_move:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout external repository (docs)
+      uses: actions/checkout@v2
+      with:
+        repository: NaN1fy/docs
+        path: './esterno'
+    - name: checkout internal repository (this)
+      uses: actions/checkout@v2
+      with:
+        path: './interno'
+        token: ${{secrets.NAN1FY_SITE}}
+    - name: generate tree
+      run: |  
+        cd ./esterno
+        tree -Js > repo_tree.json
+    - name: mv tree & add date
+      run: |
+        mv esterno/repo_tree.json interno/assets/repo_tree.json
+        touch interno/assets/date
+        stat -c "%y" interno/assets/repo_tree.json > interno/assets/date
+    - name: commit to internal repository (site)
+      run: |
+        cd interno
+        git config --global user.email "github-actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git add assets/repo_tree.json 
+        git add assets/date
+        git commit --allow-empty -m "Automatic update $(date +%Y-%m-%d)"
+        git push
+        
