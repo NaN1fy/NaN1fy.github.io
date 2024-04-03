@@ -186,7 +186,7 @@ nav ul li a:hover {
 	border: 2px solid var(--main-color);
 	border-radius: 5px;
 	display: inline-block;
-	width: 300px;
+	width: 200px;
 	transition: transform 0.3s ease; /* Aggiungi una transizione per un effetto più fluido */
 }
 
