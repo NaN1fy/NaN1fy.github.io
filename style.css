@@ -94,18 +94,6 @@ header {
   	box-shadow: 4px 4px var(--main-color);
 }
 
-@media screen and (max-width: 550px) {
-	header>h1 {
-		color: #fff;
-		text-indent: -9999px;
-		background: url("assets/Nan1fy-logotype-transparent-short.png") no-repeat;
-		width: 80px;
-		height: 80px;
-		background-size: cover;
-		margin: 0px;
-	}
-}
-
 nav a {
 	color: #fff;
     	text-decoration: none;
@@ -121,6 +109,18 @@ header>h1 {
 	height: 80px;
 	background-size: cover;
 	margin: 0px;
+}
+
+@media screen and (max-width: 550px) {
+	header>h1 {
+		color: #fff;
+		text-indent: -9999px;
+		background: url("assets/Nan1fy-logotype-transparent-short.png") no-repeat;
+		width: 80px;
+		height: 80px;
+		background-size: cover;
+		margin: 0px;
+	}
 }
 
 nav {
