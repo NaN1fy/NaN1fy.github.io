@@ -26,7 +26,7 @@ jobs:
     - name: mv tree & add date
       run: |
         mv esterno/repo_tree.json interno/assets/repo_tree.json
-        touch interno/assets/date
+        touch interno/assets/date.txt
         stat -c "%y" interno/assets/repo_tree.json > interno/assets/date
     - name: commit to internal repository (site)
       run: |
@@ -34,7 +34,7 @@ jobs:
         git config --global user.email "github-actions@github.com"
         git config --global user.name "GitHub Actions"
         git add assets/repo_tree.json 
-        git add assets/date
+        git add assets/date.txt
         git commit --allow-empty -m "Automatic update $(date +%Y-%m-%d)"
         git push
         
