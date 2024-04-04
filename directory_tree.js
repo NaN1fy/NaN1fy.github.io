@@ -60,12 +60,21 @@ function generateHtmlList(data, excludeList, basePath = '') {
     return html;
 }
 
-function appendHtmlToMain(htmlContent, nameDiv) {
-	var nuovoElemento = document.createElement('div');
+function appendHtmlToMain(htmlContent) {
+	let nuovoElemento = document.createElement('div');
     	nuovoElemento.classList.add('section');
 	nuovoElemento.innerHTML = htmlContent;
-	var main = document.querySelector('main');		
+	let main = document.querySelector('main');
     	main.insertBefore(nuovoElemento, main.lastElementChild);
+}
+
+function convertToUTC(dateString) {
+    const utcString = dateString.substring(0, 16).replace(' ', 'T');
+    return new Date(utcString).toUTCString();
+}
+
+function getOffsetForTimezone() {
+    return new Date().getTimezoneOffset() * 60 * 1000;
 }
 
 let data; 
@@ -78,7 +87,9 @@ Promise.all([
     const excludeList = [];
     const documentsData = jsonData[0].contents.find(item => item.name === "documents").contents;
     let htmlList = "<h2>Documenti del gruppo</h2>";
-    const inputDate = new Date(data);	
+    let inputDate = new Date(convertToUTC(data));
+    inputDate.setTime(inputDate.getTime() - getOffsetForTimezone())
+    console.log(inputDate);
 	inputDate.setHours(inputDate.getHours());
 	htmlList += generateHtmlList(documentsData, excludeList);
 	htmlList += `<span id="dataAgg">Ultimo aggiornamento il ${inputDate.getFullYear()}-${(inputDate.getMonth() + 1).toString().padStart(2, '0')}-${inputDate.getDate().toString().padStart(2, '0')} alle ore ${inputDate.getHours().toString().padStart(2, '0')}:${inputDate.getMinutes().toString().padStart(2, '0')}</span>`;
