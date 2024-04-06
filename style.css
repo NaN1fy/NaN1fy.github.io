@@ -101,7 +101,7 @@ nav a {
    	font-size: 1.5em;
 }
 
-header>h1 {
+header h1 {
 	color: #fff;
 	text-indent: -9999px;
 	background: url("assets/Nan1fy-logotype-transparent.png") no-repeat;
@@ -109,18 +109,6 @@ header>h1 {
 	height: 80px;
 	background-size: cover;
 	margin: 0;
-}
-
-@media screen and (max-width: 550px) {
-	header>h1 {
-		color: #fff;
-		text-indent: -9999px;
-		background: url("assets/Nan1fy-logotype-transparent-short.png") no-repeat;
-		width: 80px;
-		height: 80px;
-		background-size: cover;
-		margin: 0;
-	}
 }
 
 nav {
@@ -214,6 +202,25 @@ nav ul li a:hover {
 .info .nome::after{
     	content: "\a";
     	white-space: pre;
+}
+
+@media screen and (max-width: 550px) {
+	header {
+		flex-direction: column;		
+	}
+	nav>ul {
+		display: block;
+		text-align: center;
+	}
+	header h1 {
+		color: #fff;
+		text-indent: -9999px;
+		background: url("assets/Nan1fy-logotype-transparent-short.png") no-repeat;
+		width: 80px;
+		height: 80px;
+		background-size: cover;
+		margin: 0;
+	}
 }
 
 span#dataAgg {
