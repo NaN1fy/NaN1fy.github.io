@@ -46,6 +46,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git add assets/data/repo_tree.json 
         git add assets/data/lmod.txt
-        git add assets/script/glossario.py
         git commit --allow-empty -m "Automatic update $(date +%Y-%m-%d)"
         git push
