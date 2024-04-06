@@ -2,13 +2,19 @@ import os
 from pathlib import Path
 
 def main():
-    # Imposta la directory di lavoro nella cartella del file di script
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
+    
+    file_paths = list(Path("../data/").glob("glossario*.tex"))
 
-    # Leggi il contenuto del file glossario.tex
-    with open((Path("../data/").glob("glossario*."))[0], 'r', encoding="utf-8") as file:
-        lines = file.readlines()
+    if file_paths:
+        with open(file_paths[0], 'r', encoding="utf-8") as file:
+            lines = file.readlines()
+    else:
+        print("Nessun file corrispondente al modello 'glossario*.' trovato.")
+        return
+
     description = ""
     html_content = ""
 
