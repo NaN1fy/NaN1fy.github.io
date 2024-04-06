@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 def main():
     # Imposta la directory di lavoro nella cartella del file di script
@@ -6,9 +7,8 @@ def main():
     os.chdir(script_dir)
 
     # Leggi il contenuto del file glossario.tex
-    with open('../data/glossario.tex', 'r', encoding="utf-8") as file:
+    with open((Path("../data/").glob("glossario*."))[0], 'r', encoding="utf-8") as file:
         lines = file.readlines()
-
     description = ""
     html_content = ""
 
