@@ -2,7 +2,7 @@ name: Generate Repo Tree
 
 on:
   schedule:
-    - cron: "0 8,22 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
@@ -46,5 +46,6 @@ jobs:
         git config --global user.name "GitHub Actions"
         git add assets/data/repo_tree.json 
         git add assets/data/lmod.txt
+        git add glossario.html
         git commit --allow-empty -m "Automatic update $(date +%Y-%m-%d)"
         git push
