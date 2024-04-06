@@ -14,6 +14,12 @@ jobs:
       with:
         repository: NaN1fy/docs
         path: './esterno'
+    - name: checkout external repository sources (docs)
+      uses: actions/checkout@v2
+      with:
+        repository: NaN1fy/docs
+        branch: sources
+        path: './sorgenti'
     - name: checkout internal repository (this)
       uses: actions/checkout@v2
       with:
@@ -26,10 +32,10 @@ jobs:
     - name: mv tree & add date
       run: |
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
-        mv esterno/documents/RTB/interni/glossario*.tex interno/assets/data/glossario*.tex
+        mv sorgenti/documents/RTB/interni/glossario*.tex interno/assets/data/glossario*.tex
         touch interno/assets/data/lmod.txt
         stat -c "%y" interno/assets/data/repo_tree.json > interno/assets/lmod.txt
-    - name: run Python script
+    - name: update glossario html page
       run: |
         cd interno
         python3 assets/script/glossario.py
