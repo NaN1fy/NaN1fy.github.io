@@ -36,7 +36,7 @@ def main():
                     html_content += f"<p>{description}</p>\n"
                     description = ""
                 if line.startswith(r'\section*{'):
-                    html_content += f"<h2>{term}</h2>\n"
+                    html_content += f"<h2 id='{term}'>{term}</h2>\n"
                 else:
                     html_content += f"<h3>{term}</h3>\n"
             elif line.startswith(r'\newpage') or line.startswith(r'\addcontentsline{toc}{section}{'):
@@ -44,6 +44,7 @@ def main():
             else:
                 description += line
         elif line.startswith(r'\section*{A}'):
+            html_content += f"<h2 id='A'>A</h2>\n"
             reached_first_section = True
 
     # Leggi il contenuto del file glossario.html
