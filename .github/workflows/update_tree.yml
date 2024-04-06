@@ -25,16 +25,21 @@ jobs:
         tree -Js > repo_tree.json
     - name: mv tree & add date
       run: |
-        mv esterno/repo_tree.json interno/assets/repo_tree.json
-        touch interno/assets/date.txt
-        stat -c "%y" interno/assets/repo_tree.json > interno/assets/date.txt
+        mv esterno/repo_tree.json interno/assets/data/repo_tree.json
+        mv esterno/documents/RTB/interni/glossario*.tex interno/assets/data/glossario*.tex
+        touch interno/assets/data/lmod.txt
+        stat -c "%y" interno/assets/data/repo_tree.json > interno/assets/lmod.txt
+    - name: run Python script
+      run: |
+        cd interno
+        python3 assets/script/glossario.py
     - name: commit to internal repository (site)
       run: |
         cd interno
         git config --global user.email "github-actions@github.com"
         git config --global user.name "GitHub Actions"
-        git add assets/repo_tree.json 
-        git add assets/date.txt
+        git add assets/data/repo_tree.json 
+        git add assets/data/lmod.txt
+        git add assets/script/glossario.py
         git commit --allow-empty -m "Automatic update $(date +%Y-%m-%d)"
         git push
-        
