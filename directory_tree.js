@@ -80,8 +80,8 @@ function getOffsetForTimezone() {
 let data; 
 
 Promise.all([
-    fetch('assets/date.txt').then(response => response.text()),
-    fetch('assets/repo_tree.json').then(response => response.json())
+    fetch('assets/data/lmod.txt').then(response => response.text()),
+    fetch('assets/data/repo_tree.json').then(response => response.json())
 ])
 .then(([data, jsonData]) => {
     const excludeList = [];
