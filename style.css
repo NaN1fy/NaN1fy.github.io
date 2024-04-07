@@ -261,3 +261,10 @@ span#dataAgg {
 	margin: 2px;
 	color: black;
 }
+
+.section > .directory-tree > .folder:nth-child(n+2){
+	padding-top: 0.5em;
+	border-top: 2px solid;
+	border-radius: 6px;
+	
+}
