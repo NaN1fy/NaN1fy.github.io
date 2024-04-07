@@ -1,3 +1,4 @@
+import csv
 import os
 from pathlib import Path
 
@@ -5,47 +6,34 @@ def main():
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
     os.chdir(script_dir)
-    
-    file_paths = list(Path("../data/").glob("glossario*.tex"))
+
+    file_paths = list(Path("../data/").glob("glossario*.csv"))
 
     if file_paths:
         with open(file_paths[0], 'r', encoding="utf-8") as file:
-            lines = file.readlines()
+            reader = csv.reader(file, delimiter=';')
+            next(reader)  # Skip header row
+            rows = list(reader)
     else:
         print("Nessun file corrispondente al modello 'glossario*.' trovato.")
         return
 
-    description = ""
     html_content = ""
 
-    reached_first_section = False
+    for row in rows:
+        termine = row[0].strip()
+        descrizione = row[1].strip()
 
-    for line in lines:
-        line = line.strip()
-        line = line.replace(r"``", '"')  # sostituisci `` con aperte doppie quote
-        line = line.replace(r"\`a", "à")  # sostituisci \'a con à
-        line = line.replace(r"\`e", "è")  # sostituisci \'e con è
-        line = line.replace(r"\`i", "ì")  # sostituisci \'i con ì
-        line = line.replace(r"\`o", "ò")  # sostituisci \'o con ò
-        line = line.replace(r"\`u", "ù")  # sostituisci \'u con ù
+        # Sostituisci le doppie virgolette con aperte doppie quote
+        descrizione = descrizione.replace(r"``", '"')
+        descrizione = descrizione.replace(r"\`a", 'à')
+        descrizione = descrizione.replace(r"\`e", 'è')
+        descrizione = descrizione.replace(r"\`i", 'ì')
+        descrizione = descrizione.replace(r"\`o", 'ò')
+        descrizione = descrizione.replace(r"\`u", 'ù')
 
-        if reached_first_section:
-            if line.startswith(r'\section*{') or line.startswith(r'\subsection*{'):
-                term = line.split('{')[-1].split('}')[0]
-                if description:
-                    html_content += f"<p>{description}</p>\n"
-                    description = ""
-                if line.startswith(r'\section*{'):
-                    html_content += f"<h2 id='{term}'>{term}</h2>\n"
-                else:
-                    html_content += f"<h3>{term}</h3>\n"
-            elif line.startswith(r'\newpage') or line.startswith(r'\addcontentsline{toc}{section}{'):
-                pass
-            else:
-                description += line
-        elif line.startswith(r'\section*{A}'):
-            html_content += f"<h2 id='A'>A</h2>\n"
-            reached_first_section = True
+        # Aggiungi termine e descrizione al contenuto HTML
+        html_content += f"<h3 id='{termine[0]}'>{termine}</h3>\n<p>{descrizione}</p>\n"
 
     # Leggi il contenuto del file glossario.html
     with open('../../glossario.html', 'r', encoding="utf-8") as file:

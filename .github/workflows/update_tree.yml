@@ -32,7 +32,7 @@ jobs:
     - name: mv tree & add date
       run: |
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
-        mv sorgenti/documents/RTB/interni/glossario*.tex interno/assets/data/glossario*.tex
+        mv sorgenti/documents/RTB/interni/glossario*.csv interno/assets/data/glossario*.csv
         touch interno/assets/data/lmod.txt
         stat -c "%y" interno/assets/data/repo_tree.json > interno/assets/lmod.txt
     - name: update glossario html page
