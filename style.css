@@ -265,6 +265,28 @@ span#dataAgg {
 .section > .directory-tree > .folder:nth-child(n+2){
 	padding-top: 0.5em;
 	border-top: 2px solid;
-	border-radius: 6px;
-	
+	border-radius: 6px;	
 }
+
+.scroll-arrow {
+	position: fixed;
+  	right: 26px;
+  	bottom: 26px;
+  	width: 36px;
+  	height: 36px;
+  	background: rgb(49, 101, 157);
+  	border-radius: 20%;
+  	transform: rotate(-45deg);
+  	z-index: 9;
+}
+
+#scroll-text{
+	text-align:center;
+    color: white;
+    position: fixed;
+    right: 29px;
+    bottom: 21px;
+    font-size: 35px; 
+	z-index: 10;
+}
+
