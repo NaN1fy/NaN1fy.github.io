@@ -15,7 +15,7 @@ def main():
             next(reader) 
             rows = list(reader)
     else:
-        print("Nessun file corrispondente al modello 'glossario*.' trovato.")
+        print("\nno glossary found!\n")
         return
 
     html_content = ""
@@ -44,12 +44,15 @@ def main():
     span_start_index = html_template.find('<span id="glossario" class="section">')
     span_end_index = html_template.find('</span>', span_start_index)
 
-    html_output = html_template[:span_start_index] + f'<span id="glossario" class="section">{html_content}</span>' + html_template[span_end_index + len('</span>'):]
+    if span_start_index != -1 and span_end_index != -1:
+        html_output = html_template[:span_start_index] + f'<span id="glossario" class="section">{html_content}</span>' + html_template[span_end_index + len('</span>'):]
+    else:
+        html_output = html_template.replace('<span id="glossario" class="section">', f'<span id="glossario" class="section">{html_content}')
 
     with open('../../glossario.html', 'w', encoding="utf-8") as file:
         file.write(html_output)
-
-    print("Contenuto del glossario integrato con successo")
+        
+    print("\nsuccess!\n")
 
 if __name__ == "__main__":
     main()
