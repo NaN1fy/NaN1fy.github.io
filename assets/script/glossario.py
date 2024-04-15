@@ -21,6 +21,8 @@ def main():
     html_content = ""
     last_initial = None 
 
+    rows.sort(key=lambda x: x[0])
+
     for row in rows:
         termine = row[0].strip()
         descrizione = row[1].strip()
