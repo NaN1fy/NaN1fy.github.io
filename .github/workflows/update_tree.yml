@@ -34,7 +34,6 @@ jobs:
         rm interno/assets/data/repo_tree.json
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
         mv sorgenti/documents/RTB/interni/glossario*.csv interno/assets/data/glossario*.csv
-        rm interno/assets/lmod.txt
         touch interno/assets/data/lmod.txt
         stat -c "%y" interno/assets/data/repo_tree.json > interno/assets/lmod.txt
     - name: update glossario html page
