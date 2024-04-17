@@ -31,6 +31,7 @@ jobs:
         tree -Js > repo_tree.json
     - name: mv tree & add date
       run: |
+        touch interno/assets/data/repo_tree.json
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
         mv sorgenti/documents/RTB/interni/glossario*.csv interno/assets/data/glossario*.csv
         touch interno/assets/data/lmod.txt
