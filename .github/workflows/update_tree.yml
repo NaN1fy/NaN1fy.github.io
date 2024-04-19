@@ -34,8 +34,7 @@ jobs:
         rm interno/assets/data/repo_tree.json
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
         mv sorgenti/documents/RTB/interni/glossario*.csv interno/assets/data/glossario*.csv
-        touch -t $(date +"%Y%m%d%H%M.%S") interno/assets/data/repo_tree.json
-        stat -c "%y" interno/assets/data/repo_tree.json > interno/assets/lmod.txt
+        date +"%Y%m%d%H%M" > interno/assets/lmod.txt
     - name: update glossario html page
       run: |
         cd interno
