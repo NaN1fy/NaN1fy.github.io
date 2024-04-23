@@ -12,7 +12,7 @@
         {"type":"directory","name":"interni","size":4096,"contents":[
           {"type":"file","name":"glossario_v0.0.0.pdf","size":479861},
           {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VI_2024_04_05_v0.0.0.pdf","size":465813},
+            {"type":"file","name":"VI_2024_04_05_v1.0.0.pdf","size":497345},
             {"type":"file","name":"VI_2024_04_15_v1.0.0.pdf","size":457506}
         ]}
       ]}
