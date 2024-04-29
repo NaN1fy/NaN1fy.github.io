@@ -6,7 +6,8 @@
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":273840}
+            {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":273840},
+            {"type":"file","name":"VE_2024_04_19_v0.0.1 & 2024-04-29 & Verifica completa & Linda Barbiero & Verificatore.pdf","size":458716}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -38,5 +39,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":10,"files":16}
+  {"type":"report","directories":10,"files":17}
 ]
