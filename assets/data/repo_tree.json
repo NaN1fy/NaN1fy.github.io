@@ -7,7 +7,7 @@
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":273840},
-            {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":459253}
+            {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
