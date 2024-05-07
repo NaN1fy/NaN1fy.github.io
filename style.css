@@ -290,3 +290,16 @@ span#dataAgg {
 	z-index: 10;
 }
 
+#top ul {
+	all: revert;
+	list-style-type: none;
+}
+
+#top li {
+	all: revert;
+}
+
+#top li:before{
+	content: "\1F4E6";
+  	margin-right: 5px;
+}
