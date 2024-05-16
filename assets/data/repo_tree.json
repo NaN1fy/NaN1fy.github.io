@@ -17,7 +17,8 @@
             {"type":"file","name":"VI_2024_04_05_v1.0.0.pdf","size":486499},
             {"type":"file","name":"VI_2024_04_15_v1.0.0.pdf","size":457506},
             {"type":"file","name":"VI_2024_04_24_v1.0.0.pdf","size":458322},
-            {"type":"file","name":"VI_2024_05_03_v1.0.0.pdf","size":459288}
+            {"type":"file","name":"VI_2024_05_03_v1.0.0.pdf","size":459288},
+            {"type":"file","name":"VI_2024_05_09_v0.0.2.pdf","size":489685}
         ]}
       ]}
     ]},
@@ -41,5 +42,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":10,"files":19}
+  {"type":"report","directories":10,"files":20}
 ]
