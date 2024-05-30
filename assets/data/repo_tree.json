@@ -8,7 +8,8 @@
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":273840},
             {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483},
-            {"type":"file","name":"VE_2024_05_03_v1.0.0.pdf","size":2495938}
+            {"type":"file","name":"VE_2024_05_03_v1.0.0.pdf","size":2495938},
+            {"type":"file","name":"VE_2024_05_17_v1.0.0.pdf","size":487635}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -43,5 +44,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":10,"files":21}
+  {"type":"report","directories":10,"files":22}
 ]
