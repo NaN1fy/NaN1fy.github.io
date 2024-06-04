@@ -6,12 +6,14 @@
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
+          {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":1717747},
           {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":1101088},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":494405},
             {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483},
             {"type":"file","name":"VE_2024_05_03_v1.0.0.pdf","size":2495938},
-            {"type":"file","name":"VE_2024_05_17_v1.0.0.pdf","size":520609}
+            {"type":"file","name":"VE_2024_05_17_v1.0.0.pdf","size":520609},
+            {"type":"file","name":"VE_2024_05_31_v1.0.0.pdf","size":458160}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -51,5 +53,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":10,"files":29}
+  {"type":"report","directories":10,"files":31}
 ]
