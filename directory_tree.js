@@ -24,7 +24,7 @@ function convertFileName(fileName) {
             if (additional) {
                 return `Verbale esterno del ${year}-${month}-${day} ${additional}`;
             } else {
-                return `Verbale esterno del ${year}-${month}-${day}`;
+                return `Verbale esterno del ${year}-${month}-${day} ${additional}`;
             }
         });
     }
