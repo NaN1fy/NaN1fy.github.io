@@ -17,7 +17,7 @@ function formatSize(size) {
 function convertFileName(fileName) {
   
     const patternVE = /^VE_(\d{4})_(\d{2})_(\d{2})(?:_(.*))?$/; // VE_XXX_XX_XX_YY o VE_XXX_XX_XX
-    const patternVI = /^VI_(\d{4})_(\d{2})_(\d{2})$/; // VI_XXX_XX_XX
+    const patternVI = /^VI_(\d{4})_(\d{2})_(\d{2})(?:_(.*))?$/; // VI_XXX_XX_XX o VI_XXX_XX_XX_YY
 
     if (patternVE.test(fileName)) {
         return fileName.replace(patternVE, function(match, year, month, day, additional) {
