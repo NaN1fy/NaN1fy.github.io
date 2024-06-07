@@ -6,7 +6,7 @@
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
-          {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":1717747},
+          {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":1717684},
           {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":1101088},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":494405},
