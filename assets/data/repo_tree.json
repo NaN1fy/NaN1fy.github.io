@@ -3,6 +3,13 @@
     {"type":"file","name":"LICENSE","size":7048},
     {"type":"file","name":"README.md","size":983},
     {"type":"directory","name":"documents","size":4096,"contents":[
+      {"type":"directory","name":"PB","size":4096,"contents":[
+        {"type":"directory","name":"esterni","size":4096,"contents":[
+          {"type":"directory","name":"verbali","size":4096,"contents":[
+            {"type":"file","name":"VE_2024_06_07_v1.0.0.pdf","size":487577}
+        ]}
+      ]}
+    ]},
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
@@ -53,5 +60,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":10,"files":31}
+  {"type":"report","directories":13,"files":32}
 ]
