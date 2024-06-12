@@ -30,7 +30,13 @@ function convertFileName(fileName) {
     }
 
     if (patternVI.test(fileName)) {
-        return fileName.replace(patternVI, 'Verbale interno del $1-$2-$3');
+        return fileName.replace(patternVE, function(match, year, month, day, additional) {
+            if (additional) {
+                return `Verbale interno del ${year}-${month}-${day} ${additional}`;
+            } else {
+                return `Verbale interno del ${year}-${month}-${day} ${additional}`;
+            }
+        });
     }
 	return fileName.replace(/_/g, ' ').replace(/\b\w/g, function(char) {
         return char.toUpperCase();
