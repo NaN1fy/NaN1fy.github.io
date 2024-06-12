@@ -303,3 +303,17 @@ span#dataAgg {
 	content: "\1F4E6";
   	margin-right: 5px;
 }
+
+#versione {
+    display: inline-block;
+    background-color: rgb(49, 101, 157); 
+    color: #fff; 
+    padding: 0.2em 0.8em;
+    font-size: 0.7em;
+    border-radius: 0.5em; 
+    font-weight: bold;
+}
+
+#versione:empty {
+    display: none; /* Nasconde lo span se è vuoto */
+}
