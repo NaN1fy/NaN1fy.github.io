@@ -28,9 +28,8 @@ function convertFileName(fileName) {
             }
         });
     }
-
     if (patternVI.test(fileName)) {
-        return fileName.replace(patternVE, function(match, year, month, day, additional) {
+        return fileName.replace(patternVI, function(match, year, month, day, additional) {
             if (additional) {
                 return `Verbale interno del ${year}-${month}-${day} ${additional}`;
             } else {
