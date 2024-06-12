@@ -50,7 +50,7 @@ function generateHtmlList(data, excludeList, basePath = '') {
             let fileName = itemName.replace(/(_v\d+\.\d+\.\d+)?\.pdf$/, '');
             fileName = convertFileName(fileName);
             const versionMatch = itemName.match(/_v(\d+\.\d+\.\d+)\.pdf$/); 
-            const version = versionMatch ? ` [v${versionMatch[1]}]` : '';
+            const version = versionMatch ? `v${versionMatch[1]}` : '';
             const fileSize = formatSize(item.size);
             const fileUrl = `https://nan1fy.github.io/docs${itemPath}`;
             html += `<li class="file">${fileName}<span id="versione">${version}</span> <a href="${fileUrl}">visualizza pdf (${fileSize})</a></li>\n`;
