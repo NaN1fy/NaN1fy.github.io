@@ -3,18 +3,6 @@
     {"type":"file","name":"LICENSE","size":7048},
     {"type":"file","name":"README.md","size":983},
     {"type":"directory","name":"documents","size":4096,"contents":[
-      {"type":"directory","name":"PB","size":4096,"contents":[
-        {"type":"directory","name":"esterni","size":4096,"contents":[
-          {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VE_2024_06_07_v1.0.0.pdf","size":487577}
-        ]}
-      ]},
-        {"type":"directory","name":"interni","size":4096,"contents":[
-          {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VI_2024_06_07_v1.0.0.pdf","size":487809}
-        ]}
-      ]}
-    ]},
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
@@ -25,7 +13,8 @@
             {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483},
             {"type":"file","name":"VE_2024_05_03_v1.0.0.pdf","size":2495938},
             {"type":"file","name":"VE_2024_05_17_v1.0.0.pdf","size":520609},
-            {"type":"file","name":"VE_2024_05_31_v1.0.0.pdf","size":636635}
+            {"type":"file","name":"VE_2024_05_31_v1.0.0.pdf","size":636635},
+            {"type":"file","name":"VE_2024_06_07_v1.0.0.pdf","size":487634}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -40,7 +29,8 @@
             {"type":"file","name":"VI_2024_05_17_v1.0.0.pdf","size":457987},
             {"type":"file","name":"VI_2024_05_23_II_v1.0.0.pdf","size":485812},
             {"type":"file","name":"VI_2024_05_23_v1.0.0.pdf","size":457664},
-            {"type":"file","name":"VI_2024_05_31_v1.0.0.pdf","size":457860}
+            {"type":"file","name":"VI_2024_05_31_v1.0.0.pdf","size":457860},
+            {"type":"file","name":"VI_2024_06_07_v1.0.0.pdf","size":487804}
         ]}
       ]},
         {"type":"file","name":"lettera_presentazione.pdf","size":455850}
@@ -65,5 +55,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":33}
+  {"type":"report","directories":10,"files":33}
 ]
