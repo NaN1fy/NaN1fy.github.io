@@ -15,11 +15,11 @@
             {"type":"file","name":"VE_2024_05_17_v1.0.0.pdf","size":520609},
             {"type":"file","name":"VE_2024_05_31_v1.0.0.pdf","size":636635},
             {"type":"file","name":"VE_2024_06_07_v1.0.0.pdf","size":487634},
-            {"type":"file","name":"VE_2024_06_21_v1.0.0.pdf","size":456790}
+            {"type":"file","name":"VE_2024_06_21_v1.0.0.pdf","size":493975}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
-          {"type":"file","name":"glossario_v1.0.0.pdf","size":492816},
+          {"type":"file","name":"glossario_v1.0.0.pdf","size":511335},
           {"type":"file","name":"norme_di_progetto_v1.0.0.pdf","size":619723},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VI_2024_04_05_v1.0.0.pdf","size":486499},
@@ -36,7 +36,7 @@
             {"type":"file","name":"VI_2024_06_21_v1.0.0.pdf","size":456424}
         ]}
       ]},
-        {"type":"file","name":"lettera_presentazione.pdf","size":455850}
+        {"type":"file","name":"lettera_presentazione.pdf","size":455882}
     ]},
       {"type":"directory","name":"candidatura","size":4096,"contents":[
         {"type":"file","name":"dichiarazione_impegni_v2.0.0.pdf","size":492778},
