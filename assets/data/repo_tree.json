@@ -8,6 +8,12 @@
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456887}
         ]}
+      ]},
+        {"type":"directory","name":"interni","size":4096,"contents":[
+          {"type":"directory","name":"verbali","size":4096,"contents":[
+            {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459749},
+            {"type":"file","name":"VI_2024_07_25_v1.0.0.pdf","size":459789}
+        ]}
       ]}
     ]},
       {"type":"directory","name":"RTB","size":4096,"contents":[
@@ -40,7 +46,8 @@
             {"type":"file","name":"VI_2024_05_31_v1.0.0.pdf","size":457860},
             {"type":"file","name":"VI_2024_06_07_v1.0.0.pdf","size":487804},
             {"type":"file","name":"VI_2024_06_13_v1.0.0.pdf","size":456640},
-            {"type":"file","name":"VI_2024_06_21_v1.0.0.pdf","size":456424}
+            {"type":"file","name":"VI_2024_06_21_v1.0.0.pdf","size":456424},
+            {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459749}
         ]}
       ]},
         {"type":"file","name":"lettera_presentazione.pdf","size":455882}
@@ -65,5 +72,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":13,"files":37}
+  {"type":"report","directories":15,"files":40}
 ]
