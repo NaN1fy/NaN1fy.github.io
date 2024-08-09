@@ -5,6 +5,9 @@
     {"type":"directory","name":"documents","size":4096,"contents":[
       {"type":"directory","name":"PB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
+          {"type":"file","name":"analisi_dei_requisiti_v1.1.1.pdf","size":804803},
+          {"type":"file","name":"piano_di_qualifica_v1.1.0.pdf","size":749204},
+          {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":471269},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456887}
         ]}
@@ -20,7 +23,7 @@
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
           {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":2157333},
-          {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":801054},
+          {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":801068},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":494405},
             {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483},
@@ -72,5 +75,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":40}
+  {"type":"report","directories":15,"files":43}
 ]
