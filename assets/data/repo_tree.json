@@ -9,6 +9,7 @@
           {"type":"file","name":"piano_di_qualifica_v1.1.0.pdf","size":749204},
           {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":471269},
           {"type":"directory","name":"verbali","size":4096,"contents":[
+            {"type":"file","name":"VE-2024-07-16_v1.0.0.pdf","size":493116},
             {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456887}
         ]}
       ]},
@@ -76,5 +77,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":44}
+  {"type":"report","directories":15,"files":45}
 ]
