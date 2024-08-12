@@ -58,7 +58,7 @@ function generateHtmlList(data, excludeList, basePath = '') {
             const version = versionMatch ? `v${versionMatch[1]}` : '';
             const fileSize = formatSize(item.size);
             const fileUrl = `https://nan1fy.github.io/docs${itemPath}`;
-            html += `<li class="file">${fileName} <span id="versione">${version}</span> <a href="${fileUrl}">visualizza pdf (${fileSize})</a></li>\n`;
+            html += `<li class="file">${fileName} <span id="versione">${version}</span> <a href="${fileUrl}" target="_blank" rel="noopener noreferrer">visualizza pdf (${fileSize})</a></li>\n`;
         }
     }
     html += "</ul>\n";
