@@ -10,7 +10,8 @@
           {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":460570},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE-2024-07-16_v1.0.0.pdf","size":493116},
-            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456887}
+            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456885},
+            {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":457323}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -77,5 +78,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":45}
+  {"type":"report","directories":15,"files":46}
 ]
