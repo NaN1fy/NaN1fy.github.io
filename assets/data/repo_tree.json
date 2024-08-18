@@ -7,18 +7,20 @@
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.1.1.pdf","size":804803},
           {"type":"file","name":"piano_di_qualifica_v1.1.0.pdf","size":749204},
-          {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":460570},
+          {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":482105},
           {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VE-2024-07-16_v1.0.0.pdf","size":493116},
-            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456885},
-            {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":457323}
+            {"type":"file","name":"VE_2024_07_16_v1.0.0.pdf","size":493124},
+            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456891},
+            {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":457401}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
           {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459749},
-            {"type":"file","name":"VI_2024_07_16_v1.0.0.pdf","size":457429},
-            {"type":"file","name":"VI_2024_07_25_v1.0.0.pdf","size":459789}
+            {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459753},
+            {"type":"file","name":"VI_2024_07_16_v1.0.0.pdf","size":457433},
+            {"type":"file","name":"VI_2024_07_25_v1.0.0.pdf","size":459796},
+            {"type":"file","name":"VI_2024_07_30_v1.0.0.pdf","size":457353},
+            {"type":"file","name":"VI_2024_08_13_v1.0.0.pdf","size":455778}
         ]}
       ]}
     ]},
@@ -78,5 +80,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":46}
+  {"type":"report","directories":15,"files":48}
 ]
