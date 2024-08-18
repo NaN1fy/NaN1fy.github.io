@@ -5,8 +5,9 @@
     {"type":"directory","name":"documents","size":4096,"contents":[
       {"type":"directory","name":"PB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
-          {"type":"file","name":"analisi_dei_requisiti_v1.1.1.pdf","size":804803},
+          {"type":"file","name":"analisi_dei_requisiti_v2.0.0.pdf","size":665840},
           {"type":"file","name":"piano_di_qualifica_v1.1.0.pdf","size":749204},
+          {"type":"file","name":"specifica_tecnica_v1.0.0.pdf","size":1366494},
           {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":482105},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_07_16_v1.0.0.pdf","size":493124},
@@ -15,6 +16,7 @@
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
+          {"type":"file","name":"glossario_v2.0.0.pdf","size":495759},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459753},
             {"type":"file","name":"VI_2024_07_16_v1.0.0.pdf","size":457433},
@@ -40,7 +42,7 @@
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
-          {"type":"file","name":"glossario_v1.0.0.pdf","size":511409},
+          {"type":"file","name":"glossario_v1.0.0.pdf","size":492901},
           {"type":"file","name":"norme_di_progetto_v1.0.0.pdf","size":619723},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VI_2024_04_05_v1.0.0.pdf","size":486499},
@@ -80,5 +82,5 @@
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":48}
+  {"type":"report","directories":15,"files":50}
 ]
