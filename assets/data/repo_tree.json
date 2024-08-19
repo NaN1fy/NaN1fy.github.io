@@ -6,14 +6,14 @@
       {"type":"directory","name":"PB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v2.0.0.pdf","size":665840},
-          {"type":"file","name":"manuale_utente_v1.0.0.pdf","size":5724735},
-          {"type":"file","name":"piano_di_qualifica_v1.1.0.pdf","size":749204},
-          {"type":"file","name":"specifica_tecnica_v1.0.0.pdf","size":1366494},
+          {"type":"file","name":"manuale_utente_v1.0.0.pdf","size":5785920},
+          {"type":"file","name":"piano_di_qualifica_v2.0.0.pdf","size":852475},
+          {"type":"file","name":"specifica_tecnica_v1.0.0.pdf","size":1366944},
           {"type":"file","name":"valutazione_utilizzo_flink_v1.0.0.pdf","size":482105},
           {"type":"directory","name":"verbali","size":4096,"contents":[
-            {"type":"file","name":"VE_2024_07_16_v1.0.0.pdf","size":493124},
-            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":456891},
-            {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":457401}
+            {"type":"file","name":"VE_2024_07_16_v1.0.0.pdf","size":527896},
+            {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":494017},
+            {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":494755}
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
@@ -30,9 +30,9 @@
     ]},
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
-          {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":794666},
-          {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":2157333},
-          {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":801068},
+          {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":797118},
+          {"type":"file","name":"piano_di_progetto_v1.0.0.pdf","size":2157334},
+          {"type":"file","name":"piano_di_qualifica_v1.0.0.pdf","size":803410},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VE_2024_04_04_v1.0.0.pdf","size":494405},
             {"type":"file","name":"VE_2024_04_19_v1.0.0.pdf","size":640483},
@@ -44,8 +44,8 @@
         ]}
       ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
-          {"type":"file","name":"glossario_v1.0.0.pdf","size":492901},
-          {"type":"file","name":"norme_di_progetto_v1.0.0.pdf","size":619723},
+          {"type":"file","name":"glossario_v1.0.0.pdf","size":511409},
+          {"type":"file","name":"norme_di_progetto_v1.0.0.pdf","size":626256},
           {"type":"directory","name":"verbali","size":4096,"contents":[
             {"type":"file","name":"VI_2024_04_05_v1.0.0.pdf","size":486499},
             {"type":"file","name":"VI_2024_04_15_v1.0.0.pdf","size":457514},
@@ -62,7 +62,7 @@
             {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459749}
         ]}
       ]},
-        {"type":"file","name":"lettera_presentazione.pdf","size":455882}
+        {"type":"file","name":"lettera_presentazione.pdf","size":455883}
     ]},
       {"type":"directory","name":"candidatura","size":4096,"contents":[
         {"type":"file","name":"dichiarazione_impegni_v2.0.0.pdf","size":492778},
