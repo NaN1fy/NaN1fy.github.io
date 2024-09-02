@@ -33,7 +33,7 @@ jobs:
       run: |
         rm interno/assets/data/repo_tree.json
         mv esterno/repo_tree.json interno/assets/data/repo_tree.json
-        mv sorgenti/documents/RTB/interni/glossario*.csv interno/assets/data/glossario*.csv
+        mv sorgenti/documents/PB/interni/glossario*.csv interno/assets/data/glossario*.csv
         date +"%Y-%m-%d %H:%M" > interno/assets/data/lmod.txt
     - name: update glossario html page
       run: |
