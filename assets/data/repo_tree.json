@@ -15,8 +15,8 @@
             {"type":"file","name":"VE_2024_07_16_v1.0.0.pdf","size":527896},
             {"type":"file","name":"VE_2024_07_30_v1.0.0.pdf","size":494017},
             {"type":"file","name":"VE_2024_08_09_v1.0.0.pdf","size":494755}
-        ]}
-      ]},
+          ]}
+        ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
           {"type":"file","name":"glossario_v2.0.0.pdf","size":495759},
           {"type":"file","name":"norme_di_progetto_v2.0.0.pdf","size":668706},
@@ -26,10 +26,10 @@
             {"type":"file","name":"VI_2024_07_25_v1.0.0.pdf","size":459796},
             {"type":"file","name":"VI_2024_07_30_v1.0.0.pdf","size":457353},
             {"type":"file","name":"VI_2024_08_13_v1.0.0.pdf","size":455778}
-        ]}
-      ]},
+          ]}
+        ]},
         {"type":"file","name":"lettera_presentazione.pdf","size":456289}
-    ]},
+      ]},
       {"type":"directory","name":"RTB","size":4096,"contents":[
         {"type":"directory","name":"esterni","size":4096,"contents":[
           {"type":"file","name":"analisi_dei_requisiti_v1.0.0.pdf","size":797118},
@@ -43,8 +43,8 @@
             {"type":"file","name":"VE_2024_05_31_v1.0.0.pdf","size":636635},
             {"type":"file","name":"VE_2024_06_07_v1.0.0.pdf","size":487634},
             {"type":"file","name":"VE_2024_06_21_v1.0.0.pdf","size":493975}
-        ]}
-      ]},
+          ]}
+        ]},
         {"type":"directory","name":"interni","size":4096,"contents":[
           {"type":"file","name":"glossario_v1.0.0.pdf","size":511409},
           {"type":"file","name":"norme_di_progetto_v1.0.0.pdf","size":626256},
@@ -62,10 +62,10 @@
             {"type":"file","name":"VI_2024_06_13_v1.0.0.pdf","size":456640},
             {"type":"file","name":"VI_2024_06_21_v1.0.0.pdf","size":456424},
             {"type":"file","name":"VI_2024_07_09_v1.0.0.pdf","size":459749}
-        ]}
-      ]},
+          ]}
+        ]},
         {"type":"file","name":"lettera_presentazione.pdf","size":455883}
-    ]},
+      ]},
       {"type":"directory","name":"candidatura","size":4096,"contents":[
         {"type":"file","name":"dichiarazione_impegni_v2.0.0.pdf","size":492778},
         {"type":"file","name":"lettera_presentazione.pdf","size":452988},
@@ -74,17 +74,17 @@
           {"type":"directory","name":"esterni","size":4096,"contents":[
             {"type":"file","name":"VE_2024_03_12_Imola_v1.0.0.pdf","size":764108},
             {"type":"file","name":"VE_2024_03_12_SyncLab_v1.0.0.pdf","size":573474}
-        ]},
+          ]},
           {"type":"directory","name":"interni","size":4096,"contents":[
             {"type":"file","name":"VI_2024_03_08_v1.0.0.pdf","size":501332},
             {"type":"file","name":"VI_2024_03_18_v1.0.0.pdf","size":468645},
             {"type":"file","name":"VI_2024_03_25_v1.0.0.pdf","size":456688}
+          ]}
         ]}
       ]}
-    ]}
-  ]},
+    ]},
     {"type":"file","name":"repo_tree.json","size":0}
   ]}
 ,
-  {"type":"report","directories":15,"files":54}
+  {"type":"report","directories":16,"files":54}
 ]
